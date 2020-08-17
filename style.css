@@ -52,10 +52,10 @@ header{
     padding: 5px 10px;
     letter-spacing: 2px;
 }
-menu.area li.active a{
+.menu.area li.active a{
     color: #f5bb00
 }
-menu.area li a:hover{
+.menu.area li a:hover{
     color: #f5bb00;
 }
 .banner-text{
