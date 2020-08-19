@@ -57,10 +57,10 @@ header{
     display: inline-block;
     margin: 0 5px;
 }
-.menu-area li a {
+.menu-area li:a {
     text-decoration: none;
-    font-size: 25px;
-    color: rgb(232,138,96)
+    font-size: 40px;
+    color: rgb(232,138,96);
     padding: 5px 10px;
     letter-spacing: 2px;
 }
@@ -79,6 +79,7 @@ header{
 .banner-text h2 {
     color:rgb(232,138,96);
     font-size: 80px;
+    align-content: center;
     margin:0;
 }
 .banner-text h2 span {
@@ -96,7 +97,7 @@ header{
     margin-top: 5%;
     background: transparent;
     border:0;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script';
     font-size: 20px;
     text-transform: uppercase;
     border: 3px solid #fff;
