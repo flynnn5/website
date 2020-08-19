@@ -18,9 +18,17 @@ header{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .nav-area{
-    background: rbg(2, 15, 81);
+    background-color: rgb(2,15,81);
     height: 60px;
     position: absolute;
     width: 100%;
@@ -81,14 +89,15 @@ header{
     font-weight: bold;
 }
 .btn {
+    font-family:'Kaushan Script', cursive;
     display: inline-block;
     margin-top: 5%;
     background: transparent;
     border:0;
     font-size: 20px;
     text-transform: uppercase;
-    border: 3px solid #fff;
+    border: 3px rgb(219,179,189);
     padding: 10px 25px;
-    color: #fff;
+    color: rgb(219,179,189);
     border-radius: 25px;
 }
