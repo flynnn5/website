@@ -25,10 +25,15 @@ header{
     transform: translate(-50%,-50%);
 }
 .nav-area{
-    background-color: rgb(43,51,92)
+    background-color: rgb(43,51,92);
     height: 60px;
     position: absolute;
     width: 100%;
+}
+.img {
+    width: 100px; 
+    height: 100px; 
+    display: block;
 }
 .logo{
     margin:0 50px;
@@ -54,7 +59,8 @@ header{
 }
 .menu-area li a {
     text-decoration: none;
-    color: rgb (219,179,189);
+    font-size: 60px;
+    color: rgb(232,138,96)
     padding: 5px 10px;
     letter-spacing: 2px;
 }
@@ -90,6 +96,7 @@ header{
     margin-top: 5%;
     background: transparent;
     border:0;
+    font-family: 'Kaushan Script', cursive;
     font-size: 20px;
     text-transform: uppercase;
     border: 3px solid #fff;
