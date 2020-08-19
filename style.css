@@ -32,9 +32,7 @@ header{
 }
 .img {
     display: block;
-    margin:0 50px;
-    height: 6px;
-    width: 6px;
+    height: 100px;
     float: left;
 }
 .logo{
@@ -61,12 +59,12 @@ header{
 }
 .menu-area li a {
     text-decoration: none;
-    font-size: 60px;
+    font-size: 25px;
     color: rgb(232,138,96)
     padding: 5px 10px;
     letter-spacing: 2px;
 }
-.menu-area li.active a {
+.menu-area li:active a {
     color: rgb(99,40,55);
 }
 .menu-area li a:hover {
