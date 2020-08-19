@@ -14,21 +14,18 @@ header{
 }
 .vid-bg {
     position:absolute;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
   
     /* Center the video */
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .nav-area{
-    background-color: rgb(2,15,81);
+    background-color: rgb(43,51,92)
     height: 60px;
     position: absolute;
     width: 100%;
@@ -37,7 +34,7 @@ header{
     margin:0 50px;
     height: 6px;
     float: left;
-    color: rgb(219,179,189);
+    color: rgb(232,138,96);
     font-size: 35px;
     text-transform: capitalize;
     font-weight: bold;
@@ -74,7 +71,7 @@ header{
     left: 25%;
 }
 .banner-text h2 {
-    color:rgb(219,179,189);
+    color:rgb(232,138,96);
     font-size: 80px;
     margin:0;
 }
@@ -83,21 +80,20 @@ header{
     color:rgb(99,40,55);
 }
 .banner-text p {
-    color: rgb(219,179,189);
+    color: rgb(232,138,96);
     font-size: 18px;
     margin:0;
     font-weight: bold;
 }
 .btn {
-    font-family:'Kaushan Script', cursive;
     display: inline-block;
     margin-top: 5%;
     background: transparent;
     border:0;
     font-size: 20px;
     text-transform: uppercase;
-    border: 3px rgb(219,179,189);
+    border: 3px solid #fff;
     padding: 10px 25px;
-    color: rgb(219,179,189);
+    color: #fff;
     border-radius: 25px;
 }
