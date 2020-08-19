@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Amatic SC', cursive;
 }
-
 .fix {
     clear:both;
     overflow: hidden;
@@ -32,7 +31,7 @@ header{
 }
 .img {
     display: block;
-    height: 100px;
+    height: 100%;
     float: left;
 }
 .logo{
@@ -46,7 +45,7 @@ header{
     letter-spacing: 2px;
 }
 .logo span {
-    color: rgb(99,40,55)
+    color: rgb(99,40,55);
 }
 .menu-area {
     float: right;
@@ -59,7 +58,7 @@ header{
 }
 .menu-area li a {
     text-decoration: none;
-    font-size: 100px;
+    font-size: 100%;
     color: rgb(232,138,96);
     padding: 5px 10px;
     letter-spacing: 2px;
