@@ -24,16 +24,18 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.nav-area{
+.nav-area {
     background-color: rgb(43,51,92);
     height: 60px;
     position: absolute;
     width: 100%;
 }
 .img {
-    width: 100px; 
-    height: 100px; 
     display: block;
+    margin:0 50px;
+    height: 6px;
+    width: 6px;
+    float: left;
 }
 .logo{
     margin:0 50px;
