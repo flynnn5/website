@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: poppins;
+    font-family: 'Amatic SC', cursive;
 }
+
 .fix {
     clear:both;
     overflow: hidden;
@@ -19,7 +20,7 @@ header{
     min-height: 100%;
 }
 .nav-area{
-    background: rgba(0,0,0,0.7);
+    background: rbg(2, 15, 81);
     height: 60px;
     position: absolute;
     width: 100%;
@@ -28,16 +29,16 @@ header{
     margin:0 50px;
     height: 6px;
     float: left;
-    color: #fff;
+    color: rgb(219,179,189);
     font-size: 35px;
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 2px;
 }
 .logo span {
-    color: #f5bb00
+    color: rgb(99,40,55)
 }
-.menu-area{
+.menu-area {
     float: right;
     list-style: none;
     margin: 20px;
@@ -46,34 +47,35 @@ header{
     display: inline-block;
     margin: 0 5px;
 }
-.menu-area li a{
+.menu-area li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb (219,179,189);
     padding: 5px 10px;
     letter-spacing: 2px;
 }
-.menu-area li.active a{
-    color: #f5bb00
+.menu-area li.active a {
+    color: rgb(99,40,55);
 }
-.menu-area li a:hover{
-    color: #f5bb00;
+.menu-area li a:hover {
+    color: rgb(99,40,55);
 }
-.banner-text{
+.banner-text {
     position: absolute;
     top: 35%;
     text-align: center;
     left: 25%;
 }
-.banner-text h2{
-    color: #fff;
+.banner-text h2 {
+    color:rgb(219,179,189);
     font-size: 80px;
     margin:0;
 }
-.banner-text h2 span{
-    color: #f5bb00;
+.banner-text h2 span {
+    font-family:'Kaushan Script', cursive;
+    color:rgb(99,40,55);
 }
-.banner-text p{
-    color: #fff;
+.banner-text p {
+    color: rgb(219,179,189);
     font-size: 18px;
     margin:0;
     font-weight: bold;
