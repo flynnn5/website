@@ -14,9 +14,9 @@ header{
 .vid-bg {
     position:absolute;
     min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    min-height: 100%;    
+    object-fit: fill;
+
 }
 .nav-area {
     background-color: rgb(43,51,92);
@@ -34,7 +34,7 @@ header{
     margin:0 50px;
     height: 6px;
     float: left;
-    color: rgb(232,138,96);
+    color: rgb(255,255,255);
     font-size: 35px;
     text-transform: capitalize;
     font-weight: bold;
