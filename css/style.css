@@ -27,7 +27,6 @@ header{
 }
 .nav-area {
     background-color: rgb(43,51,92);
-    padding-left:10%;
     height: 60px;
     position: absolute;
     width: 100%;
@@ -51,7 +50,7 @@ header{
 .logo span {
     color: rgb(131, 146, 211);;
 }
-.nav-social li {
+.nav-social {
     margin:0 50px;
     display: inline-block;
     height: 6px;
