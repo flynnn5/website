@@ -51,14 +51,12 @@ header{
 .logo span {
     color: rgb(131, 146, 211);;
 }
-.nav-social {
+.nav-social li {
     margin:0 50px;
+    display: inline-block;
     height: 6px;
     float: right;
     color: rgb(255,255,255);
-    font-size: 35px;
-    text-transform: capitalize;
-    font-weight: bold;
     letter-spacing: 2px;    
 }
 .menu-area {
