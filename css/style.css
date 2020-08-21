@@ -11,7 +11,6 @@ header{
     overflow: hidden;
     height: 100vh;
 }
-
 .vid-bg {
     position: absolute;
     right:0;
@@ -21,9 +20,14 @@ header{
     object-fit: fill;
     overflow: hidden;
     }
-
+.flex-row {
+    flex-wrap:wrap;
+    flex-direction: row;
+    display:flex;
+}
 .nav-area {
     background-color: rgb(43,51,92);
+    padding-left:10%;
     height: 60px;
     position: absolute;
     width: 100%;
@@ -46,6 +50,16 @@ header{
 }
 .logo span {
     color: rgb(131, 146, 211);;
+}
+.nav-social {
+    margin:0 50px;
+    height: 6px;
+    float: right;
+    color: rgb(255,255,255);
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;    
 }
 .menu-area {
     float: right;
@@ -74,11 +88,10 @@ header{
     position: absolute;
     top: 35%;
     text-align: center;
-    left: 25%;
 }
 .banner-text h2 {
     color:rgb(255,255,255);
-    font-size: 80px;
+    font-size: 100px;
     align-content: center;
     margin:0;
 }
