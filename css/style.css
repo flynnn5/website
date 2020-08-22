@@ -51,13 +51,13 @@ header{
     color: rgb(131, 146, 211);;
 }
 .nav-social {
-    float: right;
     list-style: none;
+    display: inline-block;
     margin: 10px;
 }
 .nav-social a{
-    display: inline-block;
     margin: 0 5px;
+    float:right;
 }
 .menu-area {
     float: right;
