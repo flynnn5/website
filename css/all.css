@@ -2304,7 +2304,7 @@ readers do not read off random characters that represent icons */
 .fa-info-circle:before {
   content: "\f05a"; }
 
-.fa-instagram:before {
+.fa-instagram {
   content: "\f16d"; }
 
 .fa-instagram-square:before {
@@ -2490,7 +2490,7 @@ readers do not read off random characters that represent icons */
 .fa-link:before {
   content: "\f0c1"; }
 
-.fa-linkedin:before {
+.fa-linkedin {
   content: "\f08c"; }
 
 .fa-linkedin-in:before {
@@ -4524,7 +4524,7 @@ readers do not read off random characters that represent icons */
 .fa-yoast:before {
   content: "\f2b1"; }
 
-.fa-youtube:before {
+.fa-youtube {
   content: "\f167"; }
 
 .fa-youtube-square:before {
