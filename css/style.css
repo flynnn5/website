@@ -72,6 +72,7 @@ header{
     font-size: 35px;
     color: rgb(255,255,255);
     padding: 5px 10px;
+    padding-right:5%;
     letter-spacing: 2px;
 }
 .menu-area li:active a {
