@@ -82,7 +82,6 @@ header{
 .banner-text {
     position: absolute;
     top: 35%;
-    text-align: center;
 }
 .banner-text h2 {
     color:rgb(255,255,255);
