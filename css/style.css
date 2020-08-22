@@ -20,11 +20,12 @@ header{
     object-fit: fill;
     overflow: hidden;
     }
+/*
 .flex-row {
     flex-wrap:wrap;
     flex-direction: row;
     display:flex;
-}
+}*/
 .nav-area {
     background-color: rgb(43,51,92);
     height: 60px;
@@ -81,6 +82,7 @@ header{
 }
 .banner-text {
     position: absolute;
+    padding-left:20%;
     top: 35%;
 }
 .banner-text h2 {
