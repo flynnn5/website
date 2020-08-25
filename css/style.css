@@ -54,6 +54,7 @@ header{
 .nav-social {
     font-family: 'Open Sans', sans-serif;
     display:inline;
+    background-color: rgb(255,255,255);
     color: rgb(255,255,255);
 }
 .menu-area {
