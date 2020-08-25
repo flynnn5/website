@@ -52,14 +52,15 @@ header{
     color: rgb(131, 146, 211);;
 }
 .nav-social {
-    height: 6px;
-    float: right;
+    font-family: 'Open Sans', sans-serif;
+    display:inline;
     color: rgb(255,255,255);
 }
 .menu-area {
     float: right;
     list-style: none;
     margin: 10px;
+    padding-right: 5%;
 }
 .menu-area li {
     display: inline-block;
